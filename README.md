@@ -11,6 +11,7 @@ i3
 polybar
 picom
 rofi
+dunst
 ttf-jetbrains-mono
 ttf-font-awesome (in nerd-fonts)
 ttf-noto-nerd (in nerd-fonts)
