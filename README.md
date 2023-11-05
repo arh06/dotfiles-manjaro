@@ -11,6 +11,7 @@ i3
 polybar
 picom
 rofi
+ttf-jetbrains-mono
 ttf-font-awesome (in nerd-fonts)
 ttf-noto-nerd (in nerd-fonts)
 noto-fonts-emoji
