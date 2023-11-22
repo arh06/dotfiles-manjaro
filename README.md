@@ -60,6 +60,7 @@ qt5ct
 | Super+v | Next window vertical |
 | Super+b | Next window horizontal |
 | Super+Shift+q | Kill focused window |
+| Super+Shift+r | Reload i3 |
 
 
 ## Additional info
