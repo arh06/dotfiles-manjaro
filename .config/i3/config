@@ -167,7 +167,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # Gaps
-gaps inner 20
+gaps inner 10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -179,7 +179,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 
-bindsym $mod+Shift+p exec --no-startup-id rofi -modi 'Powermenu:~/.config/rofi/scripts/powermenu.sh' -show Powermenu
+bindsym $mod+Shift+p exec --no-startup-id rofi -modi 'Powermenu:~/.config/rofi/scripts/powermenu.sh' -show Powermenu -icon-theme "Papirus-Dark"
 
 for_window [class="^.*"] border pixel 1
 new_window 1pixel
@@ -236,11 +236,11 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id /usr/bin/dunst
 
 # Bind rofi
-bindsym $mod+d exec --no-startup-id rofi -show drun
+bindsym $mod+d exec --no-startup-id rofi -show drun -icon-theme "Papirus-Dark"
 bindsym $mod+s exec --no-startup-id rofi -show window
 
 # Picom
-exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
 
 # Nitrogen
 exec --no-startup-id  nitrogen --restore
