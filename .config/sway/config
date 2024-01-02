@@ -76,7 +76,7 @@ floating_modifier $mod
 bindsym $mod+space focus mode_toggle
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+bindsym $mod+Shift+r exec swaymsg reload
 
 # Use pactl to adjust volume in PulseAudio/Pipewire
 #set $refresh_i3status killall -SIGUSR1 i3status
@@ -128,65 +128,71 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 gaps inner 10
 
 # White focus borders (traditional config)
-#;client.focused_inactive #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
-#;client.unfocused #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
-#;client.urgent #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
-#;client.placeholder #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
+client.focused_inactive #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
+client.unfocused #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
+client.urgent #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
+client.placeholder #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
 
 # Removes focus borders
-for_window  [class="^.*"] border pixel 0
+for_window  [class="^.*"] border pixel 1
 
 # =================== #
 # Hotkey applications #
 # =================== #
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+#bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec foot
 
 # start a file manager
-bindsym $mod+backslash exec --no-startup-id thunar
+bindsym $mod+backslash exec thunar
 
 # start flameshot screenshot tool
-bindsym $mod+Print exec --no-startup-id flameshot gui
+bindsym $mod+Print exec flameshot gui
 
 # Bind rofi
-bindsym $mod+d exec --no-startup-id rofi -show drun -icon-theme "Papirus-Dark"
-bindsym $mod+s exec --no-startup-id rofi -show window
+bindsym $mod+d exec rofi -show drun -icon-theme "Papirus-Dark"
+#bindsym $mod+s exec --no-startup-id rofi -show window
 # Rofi power menu (logout from here)
-bindsym $mod+Shift+p exec --no-startup-id rofi -modi 'Powermenu:~/.config/rofi/scripts/powermenu.sh' -show Powermenu -icon-theme "Papirus-Dark"
+bindsym $mod+Shift+p exec rofi -modi 'Powermenu:~/.config/rofi/scripts/powermenu.sh' -show Powermenu -icon-theme "Papirus-Dark"
+
 
 # Lock
-bindsym $mod+Shift+x exec --no-startup-id i3lock --color "2e3440"
+bindsym $mod+Shift+x exec swaylock --color "2e3440"
 
 # ========== #
 # Autostarts #
 # ========== #
 # Polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always killall waybar
+exec_always waybar
 
 # Picom
-exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
+#exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
 
 # Dunst (will autostart from dbus anyway)
 # exec_always --no-startup-id /usr/bin/dunst
 
 # NetworkManager applet
-exec --no-startup-id nm-applet
+exec nm-applet
 
 # Manjaro news
-exec --no-startup-id matray
+exec matray
 
 # Polkit daemon from lx-gtk3
-exec --no-startup-id /usr/bin/lxpolkit
+exec /usr/bin/lxpolkit
 
 # Nitrogen (wallpaper)
-exec --no-startup-id nitrogen --restore
+#exec --no-startup-id nitrogen --restore
+output * background $HOME/Pictures/wallpapers/Murky\ peaks.jpg fill
 
 # Flameshot
-exec --no-startup-id flameshot
+#exec --no-startup-id flameshot
 
 # Monitor settings
 #exec --no-startup-id nvidia-settings
-exec --no-startup-id $HOME/.config/bashscripts/setres.bash
+#exec --no-startup-id $HOME/.config/bashscripts/setres.bash
+output HDMI-A-1 mode 1920x1080@144Hz
 
 # ========================== #
 # Floating window exceptions #
