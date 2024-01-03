@@ -1,6 +1,8 @@
 # dotfiles-manjaro
 Configurations for my nord-themed i3 desktop
 
+Current look: https://www.reddit.com/r/unixporn/comments/18wzo8l/i3_latest_revision_of_my_favorite_color_scheme/
+
 ## Screenshots
 ![alt text](screenshots/2023-10-25_20-38.png)
 ![alt text](screenshots/2023-10-25_20-37.png)
