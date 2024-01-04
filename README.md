@@ -20,7 +20,7 @@ If you do not use an NVIDIA GPU, the GPU module will throw a bunch of errors, so
 
 i3 has some autostarts that you may not want. Just remove the relevent ```exec``` lines at the bottom of ```.config/i3/config```
 
-If you do not want to use focus dimming/transparency, use ```config_trad``` from ```.config/picom``` and rename it ```config```
+If you do not want to use focus dimming/transparency, use ```picom_trad``` from ```.config/picom``` and rename it ```picom.conf```
 
 ## Dependencies
 The following are likley needed for everything to function smoothly with the exact configurations
