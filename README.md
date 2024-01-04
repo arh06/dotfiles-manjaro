@@ -3,10 +3,6 @@ Configurations for my nord-themed i3 desktop
 
 Current look: https://www.reddit.com/r/unixporn/comments/18wzo8l/i3_latest_revision_of_my_favorite_color_scheme/
 
-## Screenshots
-![alt text](screenshots/2023-10-25_20-38.png)
-![alt text](screenshots/2023-10-25_20-37.png)
-
 ## Usage
 Clone the repository
 ```
@@ -19,6 +15,13 @@ cd dotfiles-manjaro
 cp -r .config/polybar/ ~/.config/polybar
 ```
 
+## Notes
+If you do not use an NVIDIA GPU, the GPU module will throw a bunch of errors, so remove ```gpu-temp``` from ```.config/polybar/config.ini``` in the ```modules-right``` section
+
+i3 has some autostarts that you may not want. Just remove the relevent ```exec``` lines at the bottom of ```.config/i3/config```
+
+If you do not want to use focus dimming/transparency, use ```config_trad``` from ```.config/picom``` and rename it ```config```
+
 ## Dependencies
 The following are likley needed for everything to function smoothly with the exact configurations
 ```
@@ -28,16 +31,26 @@ polybar
 picom
 rofi
 dunst
-flameshot
 alacritty
-pcmanfm
+thunar
+pcmanfm-gtk3
 ttf-jetbrains-mono
-ttf-font-awesome (in nerd-fonts)
-ttf-noto-nerd (in nerd-fonts)
+ttf-font-awesome
+ttf-noto-nerd
 noto-fonts-emoji
-lxappearance
+lxappearance-gtk3
+lxsession-gtk3
 kvantum
 qt5ct
+pavucontrol
+```
+Optional/Situational:
+```
+matray
+vim
+flameshot
+qt6ct
+nvidia-smi
 ```
 
 ## Keybinds
