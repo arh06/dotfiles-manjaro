@@ -43,6 +43,7 @@ lxsession-gtk3
 kvantum
 qt5ct
 pavucontrol
+nitrogen
 ```
 Optional/Situational:
 ```
