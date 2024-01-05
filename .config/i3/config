@@ -146,7 +146,7 @@ bindsym $mod+Return exec --no-startup-id alacritty
 bindsym $mod+backslash exec --no-startup-id thunar
 
 # start flameshot screenshot tool
-bindsym $mod+Print exec --no-startup-id flameshot gui
+#bindsym $mod+Print exec --no-startup-id flameshot gui
 
 # Bind rofi
 bindsym $mod+d exec --no-startup-id rofi -show drun -icon-theme "Papirus-Dark"
@@ -170,23 +170,25 @@ exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
 # exec_always --no-startup-id /usr/bin/dunst
 
 # NetworkManager applet
-exec --no-startup-id nm-applet
+#exec --no-startup-id nm-applet
 
 # Manjaro news
-exec --no-startup-id matray
+#exec --no-startup-id matray
 
 # Polkit daemon from lx-gtk3
-exec --no-startup-id /usr/bin/lxpolkit
+#exec --no-startup-id /usr/bin/lxpolkit
 
 # Nitrogen (wallpaper)
-exec --no-startup-id nitrogen --restore
+#exec --no-startup-id nitrogen --restore
 
 # Flameshot
-exec --no-startup-id flameshot
+#exec --no-startup-id flameshot
 
 # Monitor settings
-#exec --no-startup-id nvidia-settings
+# Set resolution using a bash script. 1920x1080@144Hz by default. Edit the script for different resolutions
 exec --no-startup-id $HOME/.config/bashscripts/setres.bash
+# Start nightlight daemon (redshift)
+#exec --no-startup-id redshift-gtk
 
 # ========================== #
 # Floating window exceptions #
