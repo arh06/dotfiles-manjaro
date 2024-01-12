@@ -1,0 +1,13 @@
+{
+  "IS_MAXIMIZED": false,
+  "IS_MINIMIZED": false,
+  "WINDOW_BOUNDS": {
+    "x": 10,
+    "y": 38,
+    "width": 1900,
+    "height": 1032
+  },
+  "MINIMIZE_TO_TRAY": true,
+  "OPEN_ON_STARTUP": false,
+  "SKIP_HOST_UPDATE": true
+}
