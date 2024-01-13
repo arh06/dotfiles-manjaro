@@ -83,3 +83,9 @@ nvidia-smi
 Wallpaper from https://github.com/linuxdotexe/nordic-wallpapers (nordic-wallpapers in the AUR)
 
 Color codes from https://www.nordtheme.com/
+
+## Gallery
+![neofetch](screenshots/3.png)
+![browser](screenshots/1.png)
+![htop](screenshots/2.png)
+![bible study](screenshots/4.png)
