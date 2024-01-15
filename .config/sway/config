@@ -128,13 +128,12 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 gaps inner 10
 
 # White focus borders (traditional config)
-client.focused_inactive #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
-client.unfocused #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
-client.urgent #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
-client.placeholder #2e3440 #2e3440 #2e3440 #2e3440	#2e3440
+client.background #2e3440
+client.focused #eceff4 #eceff4 #eceff4 #eceff4 #eceff4
+client.unfocused #2e3440 #2e3440 #2e3440 #2e3440 #2e3440
 
 # Removes focus borders
-for_window  [class="^.*"] border pixel 1
+for_window  [class="^.*"] border pixel 2
 
 # =================== #
 # Hotkey applications #
@@ -171,7 +170,7 @@ exec_always waybar
 #exec_always --no-startup-id picom -b --config ~/.config/picom/picom.conf
 
 # Dunst (will autostart from dbus anyway)
-# exec_always --no-startup-id /usr/bin/dunst
+exec --no-startup-id /usr/bin/dunst
 
 # NetworkManager applet
 exec nm-applet
