@@ -1,5 +1,5 @@
 # dotfiles-manjaro
-Configurations for i3 with nord
+Optional configurations for i3 with nord
 
 ## Usage
 1. Clone the repository
