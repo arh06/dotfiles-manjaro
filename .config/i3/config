@@ -198,6 +198,7 @@ exec --no-startup-id redshift-gtk
 # Floating
 for_window [class=Pavucontrol] floating enable
 for_window [class=Qalculate-gtk] floating enable
+for_window [class=flameshot] floating enable
 
 # Automove
 for_window [class=discord] move container to workspace number $ws9
