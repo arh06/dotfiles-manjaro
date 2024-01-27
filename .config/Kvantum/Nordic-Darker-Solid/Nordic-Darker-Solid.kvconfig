@@ -30,7 +30,7 @@ toolbutton_style=1
 double_click=false
 translucent_windows=false
 blurring=false
-popup_blurring=true
+popup_blurring=false
 vertical_spin_indicators=false
 spin_button_width=32
 fill_rubberband=false
@@ -70,16 +70,19 @@ dialog_button_layout=0
 intensity=1.00
 saturation=1.00
 click_behavior=0
-shadowless_popup=false
+shadowless_popup=true
+drag_from_buttons=false
+menu_blur_radius=0
+tooltip_blur_radius=0
 
 [GeneralColors]
 window.color=#2e3440
-base.color=#2e3440
+base.color=#303643
 alt.base.color=#2E353D78
 button.color=#3c4454
 light.color=#2e3440
 mid.light.color=#2e3440
-dark.color=#2e3440
+dark.color=#252a34
 mid.color=#2e3440
 highlight.color=#4c566a
 inactive.highlight.color=#4c566a
@@ -115,6 +118,10 @@ no_selection_tint=false
 opaque_colors=false
 scroll_jump_workaround=false
 kinetic_scrolling=false
+blur_only_active_window=false
+centered_forms=false
+noninteger_translucency=false
+style_vertical_toolbars=false
 
 [PanelButtonCommand]
 frame=true

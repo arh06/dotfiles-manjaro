@@ -1,5 +1,5 @@
 # ================================================ #
-#  https://github.com/muppetcode/dotfiles-manjaro  #
+#  https://github.com/arh06/dotfiles-manjaro  #
 # ================================================ #
 # ======= #
 # General #
@@ -7,7 +7,7 @@
 set $mod Mod4
 
 # i3 font (not really used)
-font pango:JetBrains Mono 12
+font pango:Cantarell 12
 
 # Nord colours (not really used)
 set $nord0   #2E3440
@@ -189,12 +189,17 @@ output * background $HOME/Pictures/wallpapers/Murky\ peaks.jpg fill
 #exec --no-startup-id flameshot
 
 # Monitor settings
-#exec --no-startup-id nvidia-settings
-#exec --no-startup-id $HOME/.config/bashscripts/setres.bash
 output HDMI-A-1 mode 1920x1080@144Hz
 
 # ========================== #
-# Floating window exceptions #
+#       Window rules #
 # ========================== #
+# Floating
 for_window [class=Pavucontrol] floating enable
 for_window [class=Qalculate-gtk] floating enable
+for_window [class=flameshot] floating enable
+
+# Automove
+for_window [class=discord] move container to workspace number $ws9
+for_window [class=Spotify] move container to workspace number $ws10
+for_window [class=Audacious] move container to workspace number $ws10
