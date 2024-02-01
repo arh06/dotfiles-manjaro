@@ -126,7 +126,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 # WM elements #
 # =========== #
 # Gaps
-gaps inner 10
+gaps inner 7
 
 # Borders for traditional config
 client.focused #eceff4 #eceff4 #eceff4 #eceff4 #eceff4
