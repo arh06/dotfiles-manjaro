@@ -29,17 +29,17 @@
   </metadata>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:current-layer="g612"
+     inkscape:current-layer="svg1764"
      inkscape:window-maximized="1"
-     inkscape:window-y="38"
-     inkscape:window-x="10"
-     inkscape:cy="326.02041"
-     inkscape:cx="217.87727"
-     inkscape:zoom="11.313709"
+     inkscape:window-y="49"
+     inkscape:window-x="7"
+     inkscape:cy="321.82196"
+     inkscape:cx="79.903063"
+     inkscape:zoom="5.6568545"
      showgrid="false"
      id="namedview1766"
-     inkscape:window-height="1032"
-     inkscape:window-width="1900"
+     inkscape:window-height="1024"
+     inkscape:window-width="1906"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.98823529"
      guidetolerance="10"
@@ -641,19 +641,6 @@
        x2="23.75"
        x1="23.75"
        id="linearGradient2008" />
-    <filter
-       height="1.192"
-       y="-0.095999998"
-       width="1.192"
-       x="-0.095999998"
-       id="filter2077"
-       style="color-interpolation-filters:sRGB"
-       inkscape:collect="always">
-      <feGaussianBlur
-         id="feGaussianBlur2079"
-         stdDeviation="1.92"
-         inkscape:collect="always" />
-    </filter>
   </defs>
   <g
      id="g171"
@@ -2905,7 +2892,7 @@
        d="m 4e-4,323 3e-4,4.9989 5,0.001 v -5 z"
        id="menu-normal-bottomleft" />
     <rect
-       style="opacity:1;fill:#2e3440;fill-opacity:1;fill-rule:evenodd;filter:url(#filter2077)"
+       style="opacity:1;fill:#2e3440;fill-opacity:1;fill-rule:evenodd"
        height="48"
        width="48"
        y="275"
