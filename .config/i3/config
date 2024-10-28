@@ -196,7 +196,7 @@ exec --no-startup-id redshift-gtk
 #       Window rules #
 # ========================== #
 # Floating
-for_window [class=Pavucontrol] floating enable
+for_window [class=pavucontrol] floating enable
 for_window [class=Qalculate-gtk] floating enable
 for_window [class=flameshot] floating enable
 
