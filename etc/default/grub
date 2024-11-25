@@ -1,0 +1,2 @@
+(copy line only)
+GRUB_CMDLINE_LINUX_DEFAULT="quiet apparmor=1 security=apparmor udev.log_priority=3 pci=nommconf"
