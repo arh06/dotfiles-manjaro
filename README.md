@@ -1,12 +1,5 @@
 # dotfiles-manjaro
-Optional configurations for i3 with nord
-
-## Usage
-1. Clone the repository
-```
-git clone https://github.com/arh06/dotfiles-manjaro
-```
-2. Move files. I believe in you.
+i3 with nord
 
 ## Notes
 If you do not use an NVIDIA GPU, the GPU module will throw a bunch of errors, so remove ```gpu-temp``` from ```.config/polybar/config.ini``` in the ```modules-right``` section
