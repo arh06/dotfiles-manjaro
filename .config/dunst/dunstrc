@@ -2,7 +2,7 @@
 frame_color = "#e5e9f0"
 separator_color = "#e5e9f0"
 separator_height = 1
-frame_width = 1
+frame_width = 0
 font = "JetBrains Mono 10"
 format = "<b>%a: %s</b>\n%b"
 origin = bottom-right
