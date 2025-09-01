@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
    sodipodi:docname="Nordic-Darker-Solid.svg"
    id="svg1764"
    viewBox="0 0 380.00266 635.00043"
@@ -29,17 +29,17 @@
   </metadata>
   <sodipodi:namedview
      inkscape:document-rotation="0"
-     inkscape:current-layer="g454"
+     inkscape:current-layer="g612"
      inkscape:window-maximized="1"
-     inkscape:window-y="49"
-     inkscape:window-x="7"
-     inkscape:cy="638.74997"
-     inkscape:cx="136.99999"
-     inkscape:zoom="4.0000002"
+     inkscape:window-y="38"
+     inkscape:window-x="10"
+     inkscape:cy="326.02041"
+     inkscape:cx="217.87727"
+     inkscape:zoom="11.313709"
      showgrid="false"
      id="namedview1766"
-     inkscape:window-height="1024"
-     inkscape:window-width="1906"
+     inkscape:window-height="1032"
+     inkscape:window-width="1900"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.98823529"
      guidetolerance="10"
@@ -641,6 +641,19 @@
        x2="23.75"
        x1="23.75"
        id="linearGradient2008" />
+    <filter
+       height="1.192"
+       y="-0.095999998"
+       width="1.192"
+       x="-0.095999998"
+       id="filter2077"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur2079"
+         stdDeviation="1.92"
+         inkscape:collect="always" />
+    </filter>
   </defs>
   <g
      id="g171"
@@ -1861,7 +1874,7 @@
        x="70"
        id="floating-tab-toggled-topleft" />
     <g
-       style="fill:#5e81ac;fill-opacity:1"
+       style="fill:#d08770;fill-opacity:1"
        id="g2022">
       <rect
          id="floating-tab-toggled-bottom"
@@ -1869,21 +1882,21 @@
          y="420"
          width="10"
          height="10"
-         style="fill:#5e81ac;fill-opacity:1;fill-rule:evenodd" />
+         style="fill:#d08770;fill-opacity:1;fill-rule:evenodd" />
       <rect
          id="floating-tab-toggled-bottomright"
          x="90"
          y="420"
          width="10"
          height="10"
-         style="fill:#5e81ac;fill-opacity:1;fill-rule:evenodd" />
+         style="fill:#d08770;fill-opacity:1;fill-rule:evenodd" />
       <rect
          id="floating-tab-toggled-bottomleft"
          x="70"
          y="420"
          width="10"
          height="10"
-         style="fill:#5e81ac;fill-opacity:1;fill-rule:evenodd" />
+         style="fill:#d08770;fill-opacity:1;fill-rule:evenodd" />
     </g>
     <rect
        style="opacity:0.25;fill:#555564;fill-opacity:0.908257;fill-rule:evenodd"
@@ -2892,7 +2905,7 @@
        d="m 4e-4,323 3e-4,4.9989 5,0.001 v -5 z"
        id="menu-normal-bottomleft" />
     <rect
-       style="opacity:1;fill:#2e3440;fill-opacity:1;fill-rule:evenodd"
+       style="opacity:1;fill:#2e3440;fill-opacity:1;fill-rule:evenodd;filter:url(#filter2077)"
        height="48"
        width="48"
        y="275"
@@ -3029,52 +3042,52 @@
      id="g703"
      transform="translate(0.00264425,45.000002)">
     <g
-       style="fill:#5e81ac;fill-opacity:1"
+       style="fill:#d08770;fill-opacity:1"
        id="g2039">
       <path
          id="progress-pattern-normal-left"
          d="m 235,170 h -5 v 5 h 5 z"
-         style="text-transform:none;fill:#5e81ac;fill-opacity:1;fill-rule:evenodd"
+         style="text-transform:none;fill:#d08770;fill-opacity:1;fill-rule:evenodd"
          inkscape:connector-curvature="0" />
       <path
          id="progress-pattern-normal-bottomleft"
          d="m 235,175 h -5 v 5 h 5 z"
-         style="text-transform:none;fill:#5e81ac;fill-opacity:1;fill-rule:evenodd"
+         style="text-transform:none;fill:#d08770;fill-opacity:1;fill-rule:evenodd"
          inkscape:connector-curvature="0" />
       <path
          id="progress-pattern-normal-bottom"
          d="m 240,175 h -5 v 5 h 5 z"
-         style="text-transform:none;fill:#5e81ac;fill-opacity:1;fill-rule:evenodd"
+         style="text-transform:none;fill:#d08770;fill-opacity:1;fill-rule:evenodd"
          inkscape:connector-curvature="0" />
       <path
          id="progress-pattern-normal-bottomright"
          d="m 245,175 h -5 v 5 h 5 z"
-         style="text-transform:none;fill:#5e81ac;fill-opacity:1;fill-rule:evenodd"
+         style="text-transform:none;fill:#d08770;fill-opacity:1;fill-rule:evenodd"
          inkscape:connector-curvature="0" />
       <path
          id="progress-pattern-normal-right"
          d="m 245,170 h -5 v 5 h 5 z"
-         style="text-transform:none;fill:#5e81ac;fill-opacity:1;fill-rule:evenodd"
+         style="text-transform:none;fill:#d08770;fill-opacity:1;fill-rule:evenodd"
          inkscape:connector-curvature="0" />
       <path
          id="progress-pattern-normal-topright"
          d="m 245,165 h -5 v 5 h 5 z"
-         style="text-transform:none;fill:#5e81ac;fill-opacity:1;fill-rule:evenodd"
+         style="text-transform:none;fill:#d08770;fill-opacity:1;fill-rule:evenodd"
          inkscape:connector-curvature="0" />
       <path
          id="progress-pattern-normal-top"
          d="m 240,165 h -5 v 5 h 5 z"
-         style="text-transform:none;fill:#5e81ac;fill-opacity:1;fill-rule:evenodd"
+         style="text-transform:none;fill:#d08770;fill-opacity:1;fill-rule:evenodd"
          inkscape:connector-curvature="0" />
       <path
          id="progress-pattern-normal-topleft"
          d="m 235,165 h -5 v 5 h 5 z"
-         style="text-transform:none;fill:#5e81ac;fill-opacity:1;fill-rule:evenodd"
+         style="text-transform:none;fill:#d08770;fill-opacity:1;fill-rule:evenodd"
          inkscape:connector-curvature="0" />
       <path
          id="progress-pattern-normal"
          d="m 240,170 h -5 v 5 h 5 z"
-         style="fill:#5e81ac;fill-opacity:1;fill-rule:evenodd"
+         style="fill:#d08770;fill-opacity:1;fill-rule:evenodd"
          inkscape:connector-curvature="0" />
     </g>
     <path
@@ -3282,7 +3295,7 @@
        id="slider-toggled-topleft" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#5e81ac;fill-opacity:1;fill-rule:evenodd"
+       style="fill:#d08770;fill-opacity:1;fill-rule:evenodd"
        d="m 30,177 v 16.5003 h 12 v -16.5 H 30 Z"
        id="slider-toggled-left" />
     <path
@@ -5068,7 +5081,7 @@
        id="checkbox-focused">
       <rect
          id="rect1257"
-         style="opacity:1;fill:#81a1c1;fill-opacity:1"
+         style="opacity:1;fill:#d08770;fill-opacity:1"
          ry="2"
          height="16"
          width="16"
@@ -5089,7 +5102,7 @@
       <path
          inkscape:connector-curvature="0"
          id="path1262"
-         style="fill:#81a1c1;fill-opacity:1"
+         style="fill:#d08770;fill-opacity:1"
          d="m 127,125 c -1.108,0 -2,0.892 -2,2 v 12 c 0,1.108 0.892,2 2,2 h 12 c 1.108,0 2,-0.892 2,-2 v -12 c 0,-1.108 -0.892,-2 -2,-2 z"
          transform="translate(-40)" />
       <path
@@ -5110,7 +5123,7 @@
       <path
          inkscape:connector-curvature="0"
          id="path1269"
-         style="opacity:0.5;fill:#5e81ac;fill-opacity:1"
+         style="opacity:0.5;fill:#d08770;fill-opacity:1"
          d="m 147,125 c -1.108,0 -2,0.892 -2,2 v 12 c 0,1.108 0.892,2 2,2 h 12 c 1.108,0 2,-0.892 2,-2 v -12 c 0,-1.108 -0.892,-2 -2,-2 z"
          transform="translate(-60)" />
       <path
@@ -5180,7 +5193,7 @@
       <path
          inkscape:connector-curvature="0"
          id="path1293"
-         style="opacity:1;fill:#81a1c1;fill-opacity:1"
+         style="opacity:1;fill:#d08770;fill-opacity:1"
          d="m 8,154 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z m 0,2 a 6,6 0 0 1 6,6 6,6 0 0 1 -6,6 6,6 0 0 1 -6,-6 6,6 0 0 1 6,-6 z" />
       <circle
          id="circle1295"
@@ -5195,7 +5208,7 @@
       <path
          inkscape:connector-curvature="0"
          id="path1298"
-         style="fill:#81a1c1;fill-opacity:1"
+         style="fill:#d08770;fill-opacity:1"
          d="m 8,154 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z m 0,2 a 6,6 0 0 1 6,6 6,6 0 0 1 -6,6 6,6 0 0 1 -6,-6 6,6 0 0 1 6,-6 z" />
       <circle
          id="circle1300"
@@ -5205,7 +5218,7 @@
          cx="8" />
       <circle
          id="circle1302"
-         style="fill:#81a1c1;fill-opacity:1"
+         style="fill:#d08770;fill-opacity:1"
          r="4"
          cy="162"
          cx="8" />
@@ -5221,7 +5234,7 @@
       <path
          inkscape:connector-curvature="0"
          id="path1307"
-         style="opacity:0.5;fill:#5e81ac;fill-opacity:1"
+         style="opacity:0.5;fill:#d08770;fill-opacity:1"
          d="m 8,154 a 8,8 0 0 0 -8,8 8,8 0 0 0 8,8 8,8 0 0 0 8,-8 8,8 0 0 0 -8,-8 z m 0,2 a 6,6 0 0 1 6,6 6,6 0 0 1 -6,6 6,6 0 0 1 -6,-6 6,6 0 0 1 6,-6 z" />
       <circle
          id="circle1309"
@@ -5237,7 +5250,7 @@
          cx="8" />
       <circle
          id="circle1313"
-         style="opacity:0.5;fill:#5e81ac;fill-opacity:1"
+         style="opacity:0.5;fill:#d08770;fill-opacity:1"
          r="4"
          cy="162"
          cx="8" />
@@ -6041,8 +6054,7 @@
   </g>
   <g
      id="g1590"
-     transform="translate(0.00264425,45.000002)"
-     style="opacity:0">
+     transform="translate(0.00264425,45.000002)">
     <use
        y="0"
        x="0"
